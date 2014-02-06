@@ -22,7 +22,7 @@ gem 'faraday',            '~> 0.8.8'
 gem 'sentry-raven',       github: 'getsentry/raven-ruby'
 
 group :development do
-  gem 'rake'
+  gem 'rake', '~> 10.1.0'
 end
 
 group :test do
